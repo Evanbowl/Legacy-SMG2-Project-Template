@@ -33,7 +33,7 @@ void PowerStarBGMChange(bool PlayStarChance2)
     FUN_8001C140();
 
     if (MR::isPlayerDead() || MR::isEqualStageName("GalaxyNameHere") && MR::getCurrentScenarioNo() == 1
-                                              || MR::isEqualStageName("TemplateTestGalaxy")
+                                              || MR::isEqualStageName("GalaxyNameHere") && MR::getCurrentScenarioNo() == 1 //Duplicate this line to add another entry, and remove the "&& MR::getCurrentScenarioNo() == 1" to remove the Star Chance for all stars in the specified galaxy.
 
 
 
